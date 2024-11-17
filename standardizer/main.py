@@ -9,7 +9,7 @@ from standardizer import chroma, notion, standard_generator
 with gr.Blocks() as interface:
     gr.Markdown("""
 Standard Bootstrapper
-==                
+==
 L'interface Standard Bootstrapper permet de créer facilement un premier jet d'un standard en répondant à un prompt.
 Elle aide l'utilisateur à formuler des standards à l'aide de :
 - Intention : Pourquoi ce standard est important et ce qu'il doit accomplir pour le client.
@@ -90,4 +90,4 @@ def launch_ui():
 
 if __name__ == "__main__":
     # gradio standardizer/main.py --demo-name=interface
-    launch_ui
+    launch_ui()
